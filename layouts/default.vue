@@ -33,11 +33,11 @@
         </div>
     </header>
 
-    <main class="p-5 flex h-screen">
+    <main class="p-5 flex min-h-screen">
         <slot />
     </main>
 
-    <footer class="flex flex-row w-full bg-green-400 border-gray-400 items-center justify-center px-4 py-2 gap-4">
+    <footer class="flex flex-row mt-auto w-full bg-gradient-to-t from-[#C822FF] to-[#1A6DFF] items-center justify-center px-4 py-2 gap-4">
         <a href="https://github.com/"><img src="assets/img/git.png" class="w-16 h-16"></a>
     </footer>
 </template>
@@ -72,4 +72,5 @@ const submenu = ref<boolean>(false)
 
 const switch_burger = () => {burger.value = !burger.value}
 const switch_submenu = () => {submenu.value = !submenu.value}
+
 </script>
