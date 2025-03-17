@@ -33,7 +33,7 @@
         </div>
     </header>
 
-    <main class="p-5 flex min-h-screen">
+    <main class="p-5 flex min-h-screen flex-wrap">
         <slot />
     </main>
 
